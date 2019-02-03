@@ -40,8 +40,8 @@ P_L_Avg_Diff = sum(P_L_Difference)/len(P_L_Difference)
 
 """Create tracker variables for greatest increase and month of greatest increase. 
 Iterate through master list and take difference between next P/L figure and current P/L figure. 
-If this value is greater than the value currently stored in our greatest increase tracker, pull the month of 
-the next element, since P/L changes will be measured in the second month.""" 
+If this value is greater than the value currently stored in our greatest increase tracker, 
+set current P/L value to greatest and pull the month of the next element, since P/L changes will be measured in the second month.""" 
 
 greatest_increase = 0
 greatest_inc_month = ""
